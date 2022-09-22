@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Toast</title>
+</head>
+
+<body>
+    <div class="toast toast-sucess" id="toast">
+        <div>
+            <strong>Sucesso!</strong>
+            <p>Login efetuado com sucesso.</p>
+        </div>
+        <img src="img/info.svg" alt="info">
+    </div>
+
+    <div class="toast toast-try-again" id="toast-fail">
+        <div>
+            <strong>Tente novamente!</strong>
+            <p>Login ou senha inválido.</p>
+        </div>
+        <img src="img/info.svg" alt="info">
+    </div>
+
+    <div class="toast toast-fail" id="toast-fail">
+        <div>
+            <strong>Falha!</strong>
+            <p>Não foi possível localizar uma conta com o email informado.</p>
+        </div>
+        <img src="img/info.svg" alt="info">
+    </div>
+
+    <div class="toast toast-error" id="toast-fail">
+        <div>
+            <strong>Erro!</strong>
+            <p>Aglo deu errado.</p>
+        </div>
+        <img src="img/info.svg" alt="info">
+    </div>
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/5728abd04f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

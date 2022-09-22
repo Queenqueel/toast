@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(22, 22, 22);
+    font-family: "Open Sans", sans-serif;
+}
+
+.toast-sucess {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    margin: 50px;
+    overflow: hidden;
+    background: #9bf0bd;
+    height: auto;
+    width: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(56, 56, 56, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toast-try-again {
+    position: absolute;
+    right: 100px;
+    top: 80px;
+    margin: 50px;
+    overflow: hidden;
+    background: #9bb6f0;
+    height: auto;
+    width: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(56, 56, 56, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toast-fail {
+    position: absolute;
+    right: 100px;
+    top: 160px;
+    margin: 50px;
+    overflow: hidden;
+    background: #eff09b;
+    height: auto;
+    width: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(56, 56, 56, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toast-error {
+    position: absolute;
+    right: 100px;
+    top: 260px;
+    margin: 50px;
+    overflow: hidden;
+    background: #f09b9b;
+    height: auto;
+    width: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(56, 56, 56, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toast-error strong {
+    color: #774646;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.toast-error p {
+    color: #774646;
+    font-size: 14px;
+}
+
+.toast-sucess strong {
+    color: #467757;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.toast-sucess p {
+    color: #467757;
+    font-size: 14px;
+}
+
+.toast-fail strong {
+    color: #9b8343;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.toast-fail p {
+    color: #9b8343;
+    font-size: 14px;
+}
+
+.toast-try-again strong {
+    color: #43699b;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.toast-try-again p {
+    color: #43699b;
+    font-size: 14px;
+}
+
+img {
+    width: 20px;
+    height: auto;
+}
